@@ -4,6 +4,7 @@
   <meta charset="UTF-8">
   <title>Study Planner</title>
   <link rel="stylesheet" href="style.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   
 </head>
 <body>
@@ -14,7 +15,12 @@
     <!-- Input Section -->
     <div class="input-section">
       <input type="text" id="taskInput" placeholder="Enter your task">
+      <input type="date" id="dueDateInput">
       <button id ="addBtn">Add Task</button>
+    </div>
+
+    <div id="taskCounter">
+      <span>total : 0  |</span> <span>completed : 0 |</span> <span>pending : 0</span>
     </div>
 
     <div class = "filter-section">
